@@ -1,0 +1,9 @@
+<strong><p>EventEmitter</p></strong>
+<p>salvando e renderizando dados:</p>
+<input type="text" #inputFrutas placeholder="digite...">
+<button (click)="clickAddFruta(inputFrutas.value)">salvar</button>
+<ul>
+  <li *ngFor="let f of frutasEventEmitter">
+    {{f}}
+  </li>
+</ul>
