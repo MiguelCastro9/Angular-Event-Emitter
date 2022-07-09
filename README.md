@@ -1,6 +1,6 @@
 # Overview
 
-Understanding the EventEmitter context in Angular.
+Understanding the <b>EventEmitter</b> context in Angular.
 
 <br>
 
